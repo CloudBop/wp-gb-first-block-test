@@ -1,11 +1,18 @@
 // wp.blocks API for creating new blocks
 var registerBlockType = wp.blocks.registerBlockType;
+var createElement = wp.element.createElement;
 //
 registerBlockType("blocks-course/firstblock", {
   edit: function () {
-    return "Edit";
+    return createElement(
+      "p",
+      {
+        className: "class",
+      },
+      "Edit"
+    );
   },
   save: function () {
-    return "Save";
+    return createElement("p", null, "Save");
   },
 });
