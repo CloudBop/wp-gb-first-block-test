@@ -1,0 +1,25 @@
+{
+  "name": "first-block",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudBop/wp-gb-first-block-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CloudBop/wp-gb-first-block-test/issues"
+  },
+  "homepage": "https://github.com/CloudBop/wp-gb-first-block-test#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.2.0"
+  },
+  "dependencies": {
+    "@wordpress/blocks": "^12.28.1"
+  }
+}
