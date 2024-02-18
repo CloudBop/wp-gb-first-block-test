@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wp-build": "npx wp-scripts build"
+    "build": "npx wp-scripts build",
+    "start": "npx wp-scripts start",
+    "format": "npx wp-scripts format",
+    "lint": "npx wp-scripts lint-js"
   },
   "repository": {
     "type": "git",
