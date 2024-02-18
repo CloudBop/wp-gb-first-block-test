@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.React;(0,window.wp.blocks.registerBlockType)("blocks-course/firstblock",{edit:function(){return(0,e.createElement)("p",{className:"class"},"Edit JSX")},save:function(){return(0,e.createElement)("p",{className:"class"},"Save JSX")}})})();
